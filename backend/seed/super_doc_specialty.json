@@ -1,0 +1,690 @@
+[
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 1,
+        "fields": {
+            "name": "Акупунктура",
+            "specialty_id": 41
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 2,
+        "fields": {
+            "name": "Акушер-гинеколог",
+            "specialty_id": 1
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 3,
+        "fields": {
+            "name": "Акушерка",
+            "specialty_id": 80
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 4,
+        "fields": {
+            "name": "Алерголог",
+            "specialty_id": 2
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 5,
+        "fields": {
+            "name": "Алтернативни практики",
+            "specialty_id": 83
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 6,
+        "fields": {
+            "name": "Ангиолог",
+            "specialty_id": 52
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 7,
+        "fields": {
+            "name": "Анестезиолог",
+            "specialty_id": 56
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 8,
+        "fields": {
+            "name": "Боуен терапевт",
+            "specialty_id": 58
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 9,
+        "fields": {
+            "name": "Вирусолог",
+            "specialty_id": 69
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 10,
+        "fields": {
+            "name": "Вътрешни болести",
+            "specialty_id": 16
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 11,
+        "fields": {
+            "name": "Гастроентеролог",
+            "specialty_id": 3
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 12,
+        "fields": {
+            "name": "Гръден хирург",
+            "specialty_id": 30
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 13,
+        "fields": {
+            "name": "Дерматолог",
+            "specialty_id": 4
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 14,
+        "fields": {
+            "name": "Детски гастроентеролог",
+            "specialty_id": 49
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 15,
+        "fields": {
+            "name": "Детски ендокринолог",
+            "specialty_id": 36
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 16,
+        "fields": {
+            "name": "Детски кардиолог",
+            "specialty_id": 48
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 17,
+        "fields": {
+            "name": "Детски невролог",
+            "specialty_id": 23
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 18,
+        "fields": {
+            "name": "Детски нефролог",
+            "specialty_id": 31
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 19,
+        "fields": {
+            "name": "Детски психиатър",
+            "specialty_id": 39
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 20,
+        "fields": {
+            "name": "Детски пулмолог",
+            "specialty_id": 33
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 21,
+        "fields": {
+            "name": "Детски ревматолог",
+            "specialty_id": 51
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 22,
+        "fields": {
+            "name": "Детски хематолог",
+            "specialty_id": 65
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 23,
+        "fields": {
+            "name": "Детски хирург",
+            "specialty_id": 35
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 24,
+        "fields": {
+            "name": "Диетолог",
+            "specialty_id": 32
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 25,
+        "fields": {
+            "name": "Ембриолог",
+            "specialty_id": 91
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 26,
+        "fields": {
+            "name": "Ендодонт",
+            "specialty_id": 86
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 27,
+        "fields": {
+            "name": "Ендокринолог",
+            "specialty_id": 6
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 28,
+        "fields": {
+            "name": "Естетичен дерматолог",
+            "specialty_id": 5
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 29,
+        "fields": {
+            "name": "Зъболекар (Стоматолог)",
+            "specialty_id": 7
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 30,
+        "fields": {
+            "name": "Изследване",
+            "specialty_id": 64
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 31,
+        "fields": {
+            "name": "Имплантолог",
+            "specialty_id": 85
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 32,
+        "fields": {
+            "name": "Имунолог",
+            "specialty_id": 68
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 33,
+        "fields": {
+            "name": "Инфекциозни болести",
+            "specialty_id": 55
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 34,
+        "fields": {
+            "name": "Кардиолог",
+            "specialty_id": 8
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 35,
+        "fields": {
+            "name": "Кардиохирург",
+            "specialty_id": 53
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 36,
+        "fields": {
+            "name": "Кинезитерапевт",
+            "specialty_id": 57
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 37,
+        "fields": {
+            "name": "Клинична лаборатория",
+            "specialty_id": 70
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 38,
+        "fields": {
+            "name": "Коуч",
+            "specialty_id": 79
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 39,
+        "fields": {
+            "name": "Лицево-челюстен хирург",
+            "specialty_id": 54
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 40,
+        "fields": {
+            "name": "Логопед",
+            "specialty_id": 38
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 41,
+        "fields": {
+            "name": "Лъчетерапевт",
+            "specialty_id": 81
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 42,
+        "fields": {
+            "name": "Мамолог",
+            "specialty_id": 50
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 43,
+        "fields": {
+            "name": "Манипулация",
+            "specialty_id": 78
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 44,
+        "fields": {
+            "name": "Медицинска генетика",
+            "specialty_id": 24
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 45,
+        "fields": {
+            "name": "Медицинска сестра",
+            "specialty_id": 88
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 46,
+        "fields": {
+            "name": "Микробиолог",
+            "specialty_id": 67
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 47,
+        "fields": {
+            "name": "Невролог",
+            "specialty_id": 10
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 48,
+        "fields": {
+            "name": "Неврохирург",
+            "specialty_id": 37
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 49,
+        "fields": {
+            "name": "Неонатолог",
+            "specialty_id": 40
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 50,
+        "fields": {
+            "name": "Нефролог (Бъбречни болести)",
+            "specialty_id": 11
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 51,
+        "fields": {
+            "name": "Нуклеарна медицина",
+            "specialty_id": 72
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 52,
+        "fields": {
+            "name": "Образна диагностика",
+            "specialty_id": 43
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 53,
+        "fields": {
+            "name": "Общопрактикуващ лекар",
+            "specialty_id": 9
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 54,
+        "fields": {
+            "name": "Озонотерапевт",
+            "specialty_id": 60
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 55,
+        "fields": {
+            "name": "Онколог",
+            "specialty_id": 42
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 56,
+        "fields": {
+            "name": "Оптометрист",
+            "specialty_id": 77
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 57,
+        "fields": {
+            "name": "Орален хирург",
+            "specialty_id": 76
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 58,
+        "fields": {
+            "name": "Ортодонт",
+            "specialty_id": 61
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 59,
+        "fields": {
+            "name": "Ортопед",
+            "specialty_id": 12
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 60,
+        "fields": {
+            "name": "Отоневролог",
+            "specialty_id": 19
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 61,
+        "fields": {
+            "name": "Офталмолог (Очен лекар)",
+            "specialty_id": 13
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 62,
+        "fields": {
+            "name": "Паразитолог",
+            "specialty_id": 59
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 63,
+        "fields": {
+            "name": "Пародонтолог",
+            "specialty_id": 87
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 64,
+        "fields": {
+            "name": "Педиатър",
+            "specialty_id": 14
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 65,
+        "fields": {
+            "name": "Пластичен хирург",
+            "specialty_id": 45
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 66,
+        "fields": {
+            "name": "Подиатър (Болести на ходилото)",
+            "specialty_id": 89
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 67,
+        "fields": {
+            "name": "Предродилна/следродилна грижа",
+            "specialty_id": 92
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 68,
+        "fields": {
+            "name": "Протетик",
+            "specialty_id": 84
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 69,
+        "fields": {
+            "name": "Психиатър",
+            "specialty_id": 28
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 70,
+        "fields": {
+            "name": "Психолог",
+            "specialty_id": 34
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 71,
+        "fields": {
+            "name": "Психотерапевт",
+            "specialty_id": 46
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 72,
+        "fields": {
+            "name": "Пулмолог (Белодробни болести)",
+            "specialty_id": 15
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 73,
+        "fields": {
+            "name": "Ревматолог",
+            "specialty_id": 44
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 74,
+        "fields": {
+            "name": "Репродуктивна медицина",
+            "specialty_id": 66
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 75,
+        "fields": {
+            "name": "Рехабилитатор",
+            "specialty_id": 74
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 76,
+        "fields": {
+            "name": "Спортна медицина",
+            "specialty_id": 47
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 77,
+        "fields": {
+            "name": "Съдов хирург",
+            "specialty_id": 26
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 78,
+        "fields": {
+            "name": "Токсиколог",
+            "specialty_id": 73
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 79,
+        "fields": {
+            "name": "УНГ",
+            "specialty_id": 17
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 80,
+        "fields": {
+            "name": "Уролог",
+            "specialty_id": 20
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 81,
+        "fields": {
+            "name": "Физиотерапевт",
+            "specialty_id": 22
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 82,
+        "fields": {
+            "name": "Хематолог (Клинична хематология)",
+            "specialty_id": 27
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 83,
+        "fields": {
+            "name": "Хематолог (Трансфузионна хематология)",
+            "specialty_id": 71
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 84,
+        "fields": {
+            "name": "Хирург",
+            "specialty_id": 21
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 85,
+        "fields": {
+            "name": "Хомеопат",
+            "specialty_id": 18
+        }
+    },
+    {
+        "model": "superdoc_urls.specialty",
+        "pk": 86,
+        "fields": {
+            "name": "Юмейхо терапевт",
+            "specialty_id": 82
+        }
+    }
+]

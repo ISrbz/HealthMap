@@ -1,0 +1,218 @@
+[
+    {
+        "model": "superdoc_urls.region",
+        "pk": 1,
+        "fields": {
+            "name": "Благоевград",
+            "region_id": 1
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 2,
+        "fields": {
+            "name": "Бургас",
+            "region_id": 2
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 3,
+        "fields": {
+            "name": "Варна",
+            "region_id": 3
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 4,
+        "fields": {
+            "name": "Велико Търново",
+            "region_id": 4
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 5,
+        "fields": {
+            "name": "Враца",
+            "region_id": 6
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 6,
+        "fields": {
+            "name": "Габрово",
+            "region_id": 7
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 7,
+        "fields": {
+            "name": "Добрич",
+            "region_id": 8
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 8,
+        "fields": {
+            "name": "Кърджали",
+            "region_id": 9
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 9,
+        "fields": {
+            "name": "Кюстендил",
+            "region_id": 10
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 10,
+        "fields": {
+            "name": "Ловеч",
+            "region_id": 11
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 11,
+        "fields": {
+            "name": "Монтана",
+            "region_id": 12
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 12,
+        "fields": {
+            "name": "Пазарджик",
+            "region_id": 13
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 13,
+        "fields": {
+            "name": "Перник",
+            "region_id": 14
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 14,
+        "fields": {
+            "name": "Плевен",
+            "region_id": 15
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 15,
+        "fields": {
+            "name": "Пловдив",
+            "region_id": 16
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 16,
+        "fields": {
+            "name": "Разград",
+            "region_id": 17
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 17,
+        "fields": {
+            "name": "Русе",
+            "region_id": 18
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 18,
+        "fields": {
+            "name": "Силистра",
+            "region_id": 19
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 19,
+        "fields": {
+            "name": "Сливен",
+            "region_id": 20
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 20,
+        "fields": {
+            "name": "Смолян",
+            "region_id": 21
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 21,
+        "fields": {
+            "name": "София град",
+            "region_id": 23
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 22,
+        "fields": {
+            "name": "София област",
+            "region_id": 22
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 23,
+        "fields": {
+            "name": "Стара Загора",
+            "region_id": 24
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 24,
+        "fields": {
+            "name": "Търговище",
+            "region_id": 25
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 25,
+        "fields": {
+            "name": "Хасково",
+            "region_id": 26
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 26,
+        "fields": {
+            "name": "Шумен",
+            "region_id": 27
+        }
+    },
+    {
+        "model": "superdoc_urls.region",
+        "pk": 27,
+        "fields": {
+            "name": "Ямбол",
+            "region_id": 28
+        }
+    }
+]

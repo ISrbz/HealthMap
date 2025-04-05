@@ -1,0 +1,164 @@
+[
+    {
+        "model": "injuries.symptom",
+        "pk": 1,
+        "fields": {
+            "place": 1,
+            "cause": 1,
+            "name": "Остра болка при дишане или кашляне"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 2,
+        "fields": {
+            "place": 1,
+            "cause": 1,
+            "name": "Нежност в областта на гърдите"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 3,
+        "fields": {
+            "place": 1,
+            "cause": 1,
+            "name": "Трудност при движение на горната част на тялото"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 4,
+        "fields": {
+            "place": 1,
+            "cause": 2,
+            "name": "Кръвотечение"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 5,
+        "fields": {
+            "place": 1,
+            "cause": 2,
+            "name": "Болка в областта на нараняването"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 6,
+        "fields": {
+            "place": 1,
+            "cause": 2,
+            "name": "Червеност и възможна инфекция"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 7,
+        "fields": {
+            "place": 2,
+            "cause": 3,
+            "name": "Скованост и болка в шията"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 8,
+        "fields": {
+            "place": 2,
+            "cause": 3,
+            "name": "Главоболие"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 9,
+        "fields": {
+            "place": 2,
+            "cause": 3,
+            "name": "Намален обхват на движение"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 10,
+        "fields": {
+            "place": 3,
+            "cause": 4,
+            "name": "Интензивна болка в рамото"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 11,
+        "fields": {
+            "place": 3,
+            "cause": 4,
+            "name": "Видима деформация"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 12,
+        "fields": {
+            "place": 3,
+            "cause": 4,
+            "name": "Невъзможност за движение на ръката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 13,
+        "fields": {
+            "place": 4,
+            "cause": 5,
+            "name": "Силна болка в бедрото или слабините"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 14,
+        "fields": {
+            "place": 4,
+            "cause": 5,
+            "name": "Невъзможност да стоите на крака"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 15,
+        "fields": {
+            "place": 4,
+            "cause": 5,
+            "name": "Къс или завъртян крак на наранената страна"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 16,
+        "fields": {
+            "place": 5,
+            "cause": 6,
+            "name": "Остра болка при дишане или кашляне"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 17,
+        "fields": {
+            "place": 5,
+            "cause": 6,
+            "name": "Нежност в областта на гърдите"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 18,
+        "fields": {
+            "place": 5,
+            "cause": 6,
+            "name": "Трудност при движение на горната част на тялото"
+        }
+    }
+]

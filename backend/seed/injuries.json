@@ -1,0 +1,23 @@
+[
+    {
+        "model": "injuries.injury",
+        "pk": 1,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "injuries.injury",
+        "pk": 2,
+        "fields": {
+            "name": "Нарязвания и разкъсвания"
+        }
+    },
+    {
+        "model": "injuries.injury",
+        "pk": 3,
+        "fields": {
+            "name": "Шийна болка"
+        }
+    }
+]

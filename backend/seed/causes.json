@@ -1,0 +1,107 @@
+[
+    {
+        "model": "injuries.cause",
+        "pk": 1,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 2,
+        "fields": {
+            "name": "Нарязвания и разкъсвания"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 3,
+        "fields": {
+            "name": "Шийна болка"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 4,
+        "fields": {
+            "name": "Изкълчване на рамо"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 5,
+        "fields": {
+            "name": "Фрактура на бедро"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 6,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 7,
+        "fields": {
+            "name": "Фрактури на лицето"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 8,
+        "fields": {
+            "name": "Травми на очите"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 9,
+        "fields": {
+            "name": "Дентални травми"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 10,
+        "fields": {
+            "name": "Херниран диск"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 11,
+        "fields": {
+            "name": "Фрактура на гръбначния стълб"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 12,
+        "fields": {
+            "name": "Прищипан нерв"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 13,
+        "fields": {
+            "name": "Разтегнати мускули на шията"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 14,
+        "fields": {
+            "name": "Разкъсване на ротаторния маншон"
+        }
+    },
+    {
+        "model": "injuries.cause",
+        "pk": 15,
+        "fields": {
+            "name": "Фрактура на ключицата"
+        }
+    }
+]
