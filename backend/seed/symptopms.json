@@ -5,7 +5,7 @@
         "fields": {
             "place": 1,
             "cause": 1,
-            "name": "Остра болка при дишане или кашляне"
+            "name": "Главоболие"
         }
     },
     {
@@ -14,7 +14,7 @@
         "fields": {
             "place": 1,
             "cause": 1,
-            "name": "Нежност в областта на гърдите"
+            "name": "Замайване или объркване"
         }
     },
     {
@@ -23,7 +23,7 @@
         "fields": {
             "place": 1,
             "cause": 1,
-            "name": "Трудност при движение на горната част на тялото"
+            "name": "Гадене или повръщане"
         }
     },
     {
@@ -32,7 +32,7 @@
         "fields": {
             "place": 1,
             "cause": 2,
-            "name": "Кръвотечение"
+            "name": "Подуване и нежност в областта на нараняването"
         }
     },
     {
@@ -41,7 +41,7 @@
         "fields": {
             "place": 1,
             "cause": 2,
-            "name": "Болка в областта на нараняването"
+            "name": "Кръвотечение от ушите или носа"
         }
     },
     {
@@ -50,115 +50,628 @@
         "fields": {
             "place": 1,
             "cause": 2,
-            "name": "Червеност и възможна инфекция"
+            "name": "Загуба на съзнание"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 7,
         "fields": {
-            "place": 2,
+            "place": 1,
             "cause": 3,
-            "name": "Скованост и болка в шията"
+            "name": "Синини и подуване около лицето"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 8,
         "fields": {
-            "place": 2,
+            "place": 1,
             "cause": 3,
-            "name": "Главоболие"
+            "name": "Болка при дъвчене или говорене"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 9,
         "fields": {
-            "place": 2,
+            "place": 1,
             "cause": 3,
-            "name": "Намален обхват на движение"
+            "name": "Неправилно подреждане на лицевите черти"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 10,
         "fields": {
-            "place": 3,
+            "place": 1,
             "cause": 4,
-            "name": "Интензивна болка в рамото"
+            "name": "Замъглено или двойно зрение"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 11,
         "fields": {
-            "place": 3,
+            "place": 1,
             "cause": 4,
-            "name": "Видима деформация"
+            "name": "Червенина и подуване"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 12,
         "fields": {
-            "place": 3,
+            "place": 1,
             "cause": 4,
-            "name": "Невъзможност за движение на ръката"
+            "name": "Чувствителност към светлина"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 13,
         "fields": {
-            "place": 4,
+            "place": 1,
             "cause": 5,
-            "name": "Силна болка в бедрото или слабините"
+            "name": "Силна болка в зъба"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 14,
         "fields": {
-            "place": 4,
+            "place": 1,
             "cause": 5,
-            "name": "Невъзможност да стоите на крака"
+            "name": "Кръвотечение от венците или устните"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 15,
         "fields": {
-            "place": 4,
+            "place": 1,
             "cause": 5,
-            "name": "Къс или завъртян крак на наранената страна"
+            "name": "Разхлабен или липсващ зъб"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 16,
         "fields": {
-            "place": 5,
+            "place": 2,
             "cause": 6,
-            "name": "Остра болка при дишане или кашляне"
+            "name": "Скованост и болка в шията"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 17,
         "fields": {
-            "place": 5,
+            "place": 2,
             "cause": 6,
-            "name": "Нежност в областта на гърдите"
+            "name": "Главоболие"
         }
     },
     {
         "model": "injuries.symptom",
         "pk": 18,
         "fields": {
-            "place": 5,
+            "place": 2,
             "cause": 6,
+            "name": "Намален обхват на движение"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 19,
+        "fields": {
+            "place": 2,
+            "cause": 7,
+            "name": "Остра болка в шията или гърба"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 20,
+        "fields": {
+            "place": 2,
+            "cause": 7,
+            "name": "Изтръпване или мравучкане в крайниците"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 21,
+        "fields": {
+            "place": 2,
+            "cause": 7,
+            "name": "Слабост в мускулите"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 22,
+        "fields": {
+            "place": 2,
+            "cause": 8,
+            "name": "Силна болка в гърба"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 23,
+        "fields": {
+            "place": 2,
+            "cause": 8,
+            "name": "Изтръпване или парализа под нивото на нараняването"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 24,
+        "fields": {
+            "place": 2,
+            "cause": 8,
+            "name": "Загуба на контрол върху пикочния мехур или червата"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 25,
+        "fields": {
+            "place": 2,
+            "cause": 9,
+            "name": "Остра, пареща болка, излъчваща от гръбначния стълб"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 26,
+        "fields": {
+            "place": 2,
+            "cause": 9,
+            "name": "Изтръпване или мравучкане в засегнатите области"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 27,
+        "fields": {
+            "place": 2,
+            "cause": 9,
+            "name": "Мускулна слабост"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 28,
+        "fields": {
+            "place": 2,
+            "cause": 10,
+            "name": "Болка и стягане в шията"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 29,
+        "fields": {
+            "place": 2,
+            "cause": 10,
+            "name": "Мускулни спазми"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 30,
+        "fields": {
+            "place": 2,
+            "cause": 10,
+            "name": "Трудност при движение на главата"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 31,
+        "fields": {
+            "place": 3,
+            "cause": 11,
+            "name": "Интензивна болка в рамото"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 32,
+        "fields": {
+            "place": 3,
+            "cause": 11,
+            "name": "Видима деформация"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 33,
+        "fields": {
+            "place": 3,
+            "cause": 11,
+            "name": "Невъзможност за движение на ръката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 34,
+        "fields": {
+            "place": 3,
+            "cause": 12,
+            "name": "Слабост в рамото"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 35,
+        "fields": {
+            "place": 3,
+            "cause": 12,
+            "name": "Тъпа болка в покой и при движениее"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 36,
+        "fields": {
+            "place": 3,
+            "cause": 12,
+            "name": "Трудност при вдигане на предмети"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 37,
+        "fields": {
+            "place": 3,
+            "cause": 13,
+            "name": "Силна болка в областта на ключицата"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 38,
+        "fields": {
+            "place": 3,
+            "cause": 13,
+            "name": "Синини и подуване"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 39,
+        "fields": {
+            "place": 3,
+            "cause": 13,
+            "name": "Трудност при вдигане на ръката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 40,
+        "fields": {
+            "place": 3,
+            "cause": 14,
+            "name": "Болка около външната част на лакътя"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 41,
+        "fields": {
+            "place": 3,
+            "cause": 14,
+            "name": "Слаба хватка"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 42,
+        "fields": {
+            "place": 3,
+            "cause": 14,
+            "name": "Болката се влошава при движение на китката и ръката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 43,
+        "fields": {
+            "place": 3,
+            "cause": 15,
+            "name": "Подуване и синини"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 44,
+        "fields": {
+            "place": 3,
+            "cause": 15,
+            "name": "Трудност при движение на китката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 45,
+        "fields": {
+            "place": 3,
+            "cause": 15,
+            "name": "Болка при свиване или въртене на китката"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 46,
+        "fields": {
+            "place": 4,
+            "cause": 16,
+            "name": "Силна болка в бедрото или слабините"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 47,
+        "fields": {
+            "place": 4,
+            "cause": 16,
+            "name": "Невъзможност да стоите на крака"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 48,
+        "fields": {
+            "place": 4,
+            "cause": 16,
+            "name": "Къс или завъртян крак на наранената страна"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 49,
+        "fields": {
+            "place": 4,
+            "cause": 17,
+            "name": "Чува се пукнатина при нараняването"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 50,
+        "fields": {
+            "place": 4,
+            "cause": 17,
+            "name": "Подуване и нестабилност на коляното"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 51,
+        "fields": {
+            "place": 4,
+            "cause": 17,
+            "name": "Трудност при ходене"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 52,
+        "fields": {
+            "place": 4,
+            "cause": 18,
+            "name": "Болка и подуване на коляното"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 53,
+        "fields": {
+            "place": 4,
+            "cause": 18,
+            "name": "Стегнатост и трудност при сгъване на коляното"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 54,
+        "fields": {
+            "place": 4,
+            "cause": 18,
+            "name": "Щракване или заключване на коляното"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 55,
+        "fields": {
+            "place": 4,
+            "cause": 19,
+            "name": "Болка по подбедрицата"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 56,
+        "fields": {
+            "place": 4,
+            "cause": 19,
+            "name": "Леко подуване в долната част на крака"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 57,
+        "fields": {
+            "place": 4,
+            "cause": 19,
+            "name": "Влошаване на болката при физическа активност"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 58,
+        "fields": {
+            "place": 4,
+            "cause": 20,
+            "name": "Подуване и синини около глезена"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 59,
+        "fields": {
+            "place": 4,
+            "cause": 20,
+            "name": "Болка при натоварване на крака"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 60,
+        "fields": {
+            "place": 4,
+            "cause": 20,
+            "name": "Нестабилност на глезена"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 61,
+        "fields": {
+            "place": 5,
+            "cause": 21,
+            "name": "Остра болка при дишане или кашляне"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 62,
+        "fields": {
+            "place": 5,
+            "cause": 21,
+            "name": "Нежност в областта на гърдите"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 63,
+        "fields": {
+            "place": 5,
+            "cause": 21,
             "name": "Трудност при движение на горната част на тялото"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 64,
+        "fields": {
+            "place": 5,
+            "cause": 22,
+            "name": "Кръвотечение"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 65,
+        "fields": {
+            "place": 5,
+            "cause": 22,
+            "name": "Болка в областта на нараняването"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 66,
+        "fields": {
+            "place": 5,
+            "cause": 22,
+            "name": "Червеност и възможна инфекция"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 67,
+        "fields": {
+            "place": 5,
+            "cause": 23,
+            "name": "Промяна в цвета на кожата (черно, синьо или лилаво)"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 68,
+        "fields": {
+            "place": 5,
+            "cause": 23,
+            "name": "Подуване и нежност"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 69,
+        "fields": {
+            "place": 5,
+            "cause": 23,
+            "name": "Болка, която се увеличава при натиск"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 70,
+        "fields": {
+            "place": 5,
+            "cause": 24,
+            "name": "Червенина и подуване"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 71,
+        "fields": {
+            "place": 5,
+            "cause": 24,
+            "name": "Образуване на мехури"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 72,
+        "fields": {
+            "place": 5,
+            "cause": 24,
+            "name": "Силна болка или изтръпване (в зависимост от тежестта)"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 73,
+        "fields": {
+            "place": 5,
+            "cause": 25,
+            "name": "Остра болка при движение"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 74,
+        "fields": {
+            "place": 5,
+            "cause": 25,
+            "name": "Мускулна слабост или стегнатост"
+        }
+    },
+    {
+        "model": "injuries.symptom",
+        "pk": 75,
+        "fields": {
+            "place": 2,
+            "cause": 6,
+            "name": "Подуване и синини"
         }
     }
 ]
