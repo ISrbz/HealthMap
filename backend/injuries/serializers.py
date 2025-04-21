@@ -1,3 +1,5 @@
+#For seeing all objects from a given model
+
 from rest_framework import serializers
 from .models import Injury, Symptom, Place, Cause
 
@@ -20,5 +22,3 @@ class CauseSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Cause
 		fields = ['name']
-
-	

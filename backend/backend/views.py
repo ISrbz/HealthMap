@@ -1,3 +1,5 @@
+#Connections to the user db
+
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.template import loader
@@ -22,19 +24,14 @@ def login_view(request):
             return JsonResponse({'message': 'Invalid username or password'}, status=401)
 
 
-
-
-#NOT CONNECTED WITH THE FRONTEND YET!
-
 @csrf_exempt
 def logout_view(request):
     if request.method == 'POST':
         print(request.POST)
         logout(request)
         return JsonResponse({'message':'Successfuly logged out'})
-    
-    
-#IMPORTANT: There is no signup page in the frontend yet
+
+
 @csrf_exempt
 def signup_view(request):
     if request.method == 'POST':
@@ -54,4 +51,3 @@ def signup_view(request):
             new_user = User.objects.create_user(username=username, email=None, password=password)
             login(request, new_user)
             return JsonResponse({'message': 'Login successful'})
-

@@ -20,9 +20,11 @@ from backend.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    #For testing the connection to the injury db:
     path('', include('injuries.urls')),
     
-    #For testing purposes:
+    #For testing the connection to the user db:
     path('login', login_view),
     path('logout', logout_view),
     path('signup', signup_view)
