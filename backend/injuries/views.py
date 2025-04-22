@@ -5,6 +5,8 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 
 from rest_framework import viewsets
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from .models import Injury, Symptom, Place, Cause
 from .serializers import InjurySerializer, SymptomSerializer, PlaceSerializer, CauseSerializer
 
@@ -35,17 +37,18 @@ class AllCauseViewSet(viewsets.ModelViewSet):
 def SymptomByPlace(request, obj):
 	body = json.loads(request.body)
 	# Use request.POST for form data or request.body for JSON data
-	place_name = body['place']
-	place = Place.objects.filter(name = place_name).values_list('pk', flat=True).first()
+	id = body['id']
+	print(id)
+	place = Place.objects.filter(pk = id).values_list('pk', flat=True).first()
 	symptoms = Symptom.objects.filter(place = place)
 	json_symptoms = []
 	for i in list(symptoms):
 		json_symptoms.append(i.name)
 	for i in json_symptoms: print(i)
 	if obj: # if True return the symptoms as a list of objects
-		return place_name, symptoms
+		return id, symptoms
 	else: #if False return a list of strings
-		return place_name, json_symptoms
+		return id, json_symptoms
 
 def SymptomByCause(request):
 	body = json.loads(request.body)
@@ -70,6 +73,20 @@ def CauseBySymptom(symptoms):
 ##################################################
 
 #Functions for giving the search results to the frontend in json format 
+
+def ShowCauseAndSymptom(request):
+	if request.method == 'GET':
+		print(request.GET)
+		causes = []
+		json_str = "{"
+		symptoms = Symptom.objects.all().values_list("name", flat=True)
+		for s in symptoms:
+			cause = str(Symptom.objects.filter(name = s).values_list('cause', flat=True).first())
+			causes.append(cause)
+			if cause != causes[-1]:
+				json_str += "},\n{\n\"cause\": \"" + cause +  "\",\n\"symptoms\": "
+			json_str += "\"" + s + "\","
+		return JsonResponse(json_str, safe=False)
 
 @csrf_exempt
 def ShowSymptomByPlace(request):
@@ -101,3 +118,21 @@ def ShowSymptomByCause(request):
 			'cause': cause_name,
 			'symptoms': json_symptoms
 		})
+	
+#####################################################
+'''
+class ReactView(APIView):
+  
+    serializer_class = SymptomSerializer
+
+    def get(self, request):
+        detail = [ {"place": detail.place,"detail": detail.name} 
+        for detail in Symptom.objects.all()]
+        return Response(detail)
+
+    def post(self, request):
+
+        serializer = SymptomSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return  Response(serializer.data)'''
