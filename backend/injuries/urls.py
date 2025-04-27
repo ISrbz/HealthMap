@@ -7,7 +7,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'injuries', views.AllInjuryViewSet)
-router.register(r'symptoms', views.AllSymptomViewSet)
+router.register(r'symptoms', views.ReactView, basename='ReactView')
 router.register(r'place', views.AllPlaceViewSet)
 router.register(r'cause', views.AllCauseViewSet)
 #router.register(r'sbp', views.ReactView)

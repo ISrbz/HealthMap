@@ -120,13 +120,13 @@ def ShowSymptomByCause(request):
 		})
 	
 #####################################################
-'''
-class ReactView(APIView):
+
+class ReactView(viewsets.ModelViewSet):
   
     serializer_class = SymptomSerializer
 
     def get(self, request):
-        detail = [ {"place": detail.place,"detail": detail.name} 
+        detail = [ {"place": str(detail.place),"detail": detail.name} 
         for detail in Symptom.objects.all()]
         return Response(detail)
 
@@ -135,4 +135,5 @@ class ReactView(APIView):
         serializer = SymptomSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
-            return  Response(serializer.data)'''
+            return  Response(serializer.data)
+		
